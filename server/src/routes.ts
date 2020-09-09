@@ -13,9 +13,11 @@ const routes = express.Router();
 // Listar itens de coleta
 routes.get("/items", itemsController.index);
 
+// listar pontos (Filtro por estado/cidade)
+routes.get("/points", pointsController.index);
 // Cadastrar pontos de coleta
 routes.post("/points", pointsController.create);
+// listar ponto de coleta especifico
+routes.get("/points/:id", pointsController.show);
 
-// TODO: listar ponto de coleta especifico
-// TODO: listar pontos (Filtro por estado/cidade)
 export default routes;
