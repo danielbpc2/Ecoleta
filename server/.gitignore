@@ -6,7 +6,6 @@
 
 # Ignore uploaded files in development
 /node_modules
-/yarn-error.log
 
 # Ignore master key for decrypting credentials and more.
 .env
