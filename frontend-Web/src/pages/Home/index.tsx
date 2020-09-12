@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.svg";
 import "./styles.css";
 
-import 
+import { FiLogIn } from "react-icons/fi";
 
 const Home = () => {
   return (
@@ -17,7 +17,9 @@ const Home = () => {
             Ajudamos pessoas a econtrarem pontos de coleta de forma eficiente.
           </p>
           <a href="/cadastro">
-            <span>></span>
+            <span>
+              <FiLogIn />
+            </span>
             <strong>cadastre um ponto de coleta</strong>
           </a>
         </main>
